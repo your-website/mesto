@@ -1,0 +1,5 @@
+.popup__error.popup__error_name {
+    position: absolute;
+    left: 0;
+    top: 50px;
+}
