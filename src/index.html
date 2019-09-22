@@ -10,7 +10,7 @@
 <body>
   <div class="root">
     <header class="header root__section">
-      <img src="./images/logo.svg" alt="mesto logo" class="logo">
+      <img src="<%=require('../images/logo.svg')%>" alt="mesto logo" class="logo">
     </header>
     <div class="profile root__section">
       <div class="user-info">
@@ -30,7 +30,7 @@
     </div>
     <div class="popup">
       <div class="popup__content">
-        <img src="./images/close.svg" alt="" class="popup__close">
+        <img src="<%=require('../images/close.svg')%>" alt="" class="popup__close">
         <h3 class="popup__title">Новое место</h3>
         <form class="popup__form" name="new" novalidate>
             <input type="text" name="name" autocomplete="off" class="popup__input popup__input_type_name" placeholder="Название" required minlength="2" maxlength="30">
@@ -44,7 +44,7 @@
 
     <div class="popup-edit">
       <div class="popup-edit__content">
-        <img src="./images/close.svg" alt="" class="popup-edit__close">
+        <img src="<%=require('../images/close.svg')%>" alt="" class="popup-edit__close">
         <h3 class="popup-edit__title">Редактировать профиль</h3>
         <form class="popup-edit__form" name="edit" novalidate>
             <input type="text" value="123" name="edit" autocomplete="off" class="popup-edit__input popup-edit__input_type_name" placeholder="Имя" required minlength="2" maxlength="30">
@@ -58,7 +58,7 @@
 
     <div class="popup-avatar">
       <div class="popup-avatar__content">
-        <img src="./images/close.svg" alt="" class="popup-avatar__close">
+        <img src="<%=require('../images/close.svg')%>" alt="" class="popup-avatar__close">
         <h3 class="popup-avatar__title">Обновить аватар</h3>
         <form class="popup-avatar__form" name="avatar" novalidate>
             <input type="text" name="link" autocomplete="off" class="popup-avatar__input popup-avatar__input_type_link-url" placeholder="Ссылка на картинку" required>
@@ -71,7 +71,7 @@
     <div class="popup-picture">
       <div class="popup-picture__container">
         <img class="popup-picture__image" src="https://images.unsplash.com/photo-1562826542-449090f38c70?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="" class="popup__close">
-        <img src="./images/close.svg" alt="" class="popup-picture__close">
+        <img src="<%=require('../images/close.svg')%>" alt="" class="popup-picture__close">
       </div>
     </div>
   </div>
