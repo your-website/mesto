@@ -5,7 +5,7 @@
 /pages
 /src
 /vendor
-.nojekyll
+nojekyll
 babel.config.js
 package-lock.json
 package.json
