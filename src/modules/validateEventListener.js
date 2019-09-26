@@ -1,7 +1,9 @@
 import {Popup} from './Popup.js';
 import buttonNonActive from './buttonNoneActive.js';
+import {eve} from './validateFunction.js';
+import {popupy} from './newClass.js';
 // валидация формы
-const popupy = new Popup(document.querySelector('.root'));
+
 
 const valueFormEdit = '.popup-edit__error_';
 const valueFormNew = '.popup__error_';
@@ -15,9 +17,7 @@ const popupAvatarLink = document.querySelector('.popup-avatar__input_type_link-u
 
 let validityName = false;
 let validityLink = false;
-let validityEdit = false;
-let validityAbout = false;
-let validityAvatar = false;
+
 
 // валидация popup
 popupLink.addEventListener('input', function (event) {

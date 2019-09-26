@@ -1,7 +1,7 @@
 import {Card} from './Card.js';
 import {BASE_URL, AUTH_KEY} from './CONST_URL_KEY.js';
 import {Api} from './Api.js';
-
+import {popupy} from './newClass.js';
 export class CardList {
     constructor(container, initialCards) {
         this.container = container;
@@ -29,7 +29,7 @@ export class CardList {
                        this.addCard(item.name, item.link, item.likes.length, item._id, ownerId);
                    } else this.addCard(item.name, item.link, item.likes.length, item._id);
                });
-               result.forEach((item) => item.likes.forEach((like) => like._id === ownerId ? document.getElementById(`${item._id}`).querySelector('.place-card__like-icon').classList.add('place-card__like-icon_liked') : console.log("net")));
+               result.forEach((item) => item.likes.forEach((like) => like._id === ownerId ? document.getElementById(`${item._id}`).querySelector('.place-card__like-icon').classList.add('place-card__like-icon_liked') : console.log('')));
            })
            .catch((err) => console.log('ошибка в getUserInfo ' + err));
     }

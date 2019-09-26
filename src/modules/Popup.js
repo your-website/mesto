@@ -1,5 +1,7 @@
 import buttonNonActive from './buttonNoneActive.js';
 import {renderLoading, renderLoadingCard} from './renderLoading.js';
+export {Popup};
+
 // avatar
 const popupAvatar = document.querySelector('.popup-avatar');
 
@@ -18,7 +20,7 @@ const userInfoJob = document.querySelector('.user-info__job');
 const popupPicture = document.querySelector('.popup-picture');
 const popupPictureImage = document.querySelector('.popup-picture__image');
 
-export class Popup {
+class Popup {
     constructor(container) {
         this.container = container;
 
@@ -154,4 +156,5 @@ export class Popup {
         final.style.backgroundColor = "#000"
     }
 }
+
 

@@ -1,8 +1,7 @@
 import {Api} from './Api.js';
 import {BASE_URL, AUTH_KEY} from './CONST_URL_KEY.js';
-
+import {api} from './newClass.js';
 const placesContainer = document.querySelector('.places-list');
-const api = new Api(BASE_URL, AUTH_KEY);
 
 export class Card {
     constructor(name, link, likes, id, ownerId) {
