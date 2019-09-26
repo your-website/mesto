@@ -1,6 +1,6 @@
 Работа с Webpack, разбивка JS на модули
 -------------
-## Ссылка на сайт: [https://your-website.github.io/mesto/index](https://www.google.com);
+## Ссылка на сайт: [https://your-website.github.io/mesto/index](https://your-website.github.io/mesto/index);
 
 ### Чтобы развернуть проект у себя:
 
