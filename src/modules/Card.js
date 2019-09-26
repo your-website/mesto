@@ -1,5 +1,3 @@
-import {Api} from './Api.js';
-import {BASE_URL, AUTH_KEY} from './CONST_URL_KEY.js';
 import {api} from './newClass.js';
 const placesContainer = document.querySelector('.places-list');
 
