@@ -34,7 +34,7 @@ module.exports = {
             {
                 test: /\.(png|jpg|gif|ico|svg)$/,
                 use: [
-                        'file-loader?name=../images/[name].[ext]', // указали папку, куда складывать изображения
+                        'file-loader?name=./images/[name].[ext]', // указали папку, куда складывать изображения
                         {
                             loader: 'image-webpack-loader',
                             options: { }
@@ -43,7 +43,7 @@ module.exports = {
             },
             {
                 test: /\.(eot|ttf|woff|woff2)$/,
-                loader: 'file-loader?name=./fonts[name].[ext]'
+                loader: 'file-loader?name=./vendor[name].[ext]'
                 // вместо vendor поставил fonts
             }
         ]
