@@ -1,0 +1,10 @@
+@import url(./_link/popup__error_link.css);
+@import url(./_name/popup__error_name.css);
+@import url(./_is-opened/popup__error_is-opened.css);
+.popup__error {
+    font-size: 80%;
+    color: red;
+   
+    font-size: 12px;
+    line-height: 15px;
+  }

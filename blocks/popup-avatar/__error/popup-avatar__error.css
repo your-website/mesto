@@ -1,0 +1,10 @@
+@import url(./_link/popup-avatar__error_link.css);
+@import url(./_is-opened/popup-avatar__error_is-opened.css);
+
+.popup-avatar__error {
+    font-size: 80%;
+    color: red;
+   
+    font-size: 12px;
+    line-height: 15px;
+}
